@@ -1,0 +1,54 @@
+<!--
+
+■----------------------------------------------------------------------------■
+  MeetUp WebSite Font-End [error.ejs]									                          	
+■----------------------------------------------------------------------------■
+                        
+  Back-End Developer By Yubin Heo
+  Font-End Developer By Jinpyo Joo
+  GNU General Public License(GPL) 2.0
+  License Is CC-BY-NC
+                                                                               
+■----------------------------------------------------------------------------■
+ 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+        <title>MeetUP</title>
+        <link rel="stylesheet" href="
+        ./css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+        <!--og START-->
+        <meta property="og:title" content="MeetUP">
+        <meta property="og:description" content="누구나 간단하게 모임 인원 모으기, MeetUP">
+    </head>
+    <body>
+        <div class="bgbg">
+            <div class="create_link_window">
+                <div class="window_top">
+                    <div class="wintitle">Error</div>
+                    <div class="back_button">
+                        <i class="fas fa-arrow-left" style="cursor: pointer;"  onclick="location.href = '/'"></i>
+                    </div>
+                </div>
+                <div class="form_created">
+                    <h3>오류가 발생하였습니다.</h3> <br />
+                    <h2>오류 발생 사유 : <%= error %></h2>
+					<h1>위 사유를 복사하여 개발진에게 전달하면 신속히 해결하겠습니다.</h1>
+                </div>
+            </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./js/script.js"></script>
+        <script src="./js/select.js"></script>
+    </body>
+</html>

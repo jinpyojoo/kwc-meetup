@@ -1,0 +1,86 @@
+<!--
+
+■----------------------------------------------------------------------------■
+  MeetUp WebSite Font-End [index.ejs]									                          	
+■----------------------------------------------------------------------------■
+                        
+  Back-End Developer By Yubin Heo
+  Font-End Developer By Jinpyo Joo
+  GNU General Public License(GPL) 2.0
+  License Is CC-BY-NC
+                                                                               
+■----------------------------------------------------------------------------■
+ 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+        <title>MeetUP</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+        <!--og START-->
+        <meta property="og:title" content="MeetUP">
+        <meta property="og:description" content="누구나 간단하게 모임 인원 모으기, MeetUP">
+    </head>
+    <body>
+        <div class="content">
+            <div class="page1">
+                <div class="title">Meetup</div>
+                <div class="mtitle">우리 언제, 어디서, 어떻게 만날까요?</div>
+                <div class="join_btn" style="cursor: pointer;" onclick="location.href = './create_meet'">
+                    <div class="jbtn">모임 만들기</div>
+                </div>
+                <div class="join_btn" style="cursor: pointer;" onclick="location.href = './list_meet'">
+                    <div class="jbtn">모임 리스트</div>
+                </div>
+                <a>
+                    <span></span>
+                </a>
+            </div>
+            <div class="page2 subpage" data-aos="fade-up">
+                <p>오프라인 모임을 만들고,<br>참여하기 힘들었나요?</p>
+                <p style="font-size: 15px;">#간편한_참여 #누구나_쉽게_모임_개설</p>
+            </div>
+            <div class="page3 subpage" data-aos="fade-up">
+                <p>MeetUP은 모임을 쉽고 빠르게<br>만들고, 참여할 수 있게 해줍니다.</p>
+                <p style="font-size: 15px;">#비밀번호와 #모임이름으로 #참여</p>
+            </div>
+			<div class="page2 subpage" data-aos="fade-up">
+                <p>모임 시간 잡고<br>알리기 힘드셨죠?</p>
+                <p style="font-size: 15px;">#많은_멤버가_원하는_시간_선택</p>
+            </div>
+            <div class="btn_footer">
+                <div class="btn" onclick="
+                    location.href = './create_meet'">만들기</div>
+                <div class="btn" onclick="
+                    location.href = './join_meet'">참여하기</div>
+                <div class="btn" onclick="
+                    location.href = './admin_login'">관리하기</div>
+            </div>
+            <div class="footer">
+                <div class="kwclogo"><img src="./img/kwc.png"></div>
+                <div class="ft_menu">
+                   <a href="/privacy">개인정보처리방침</a> <br>
+                <span style="font-size: 13px;">
+                    <a href="http://blog.naver.com/idoyun027" target="_blank">이도윤</a> 
+                    <a href="https://blog.naver.com/crock1234" target="_blank">이동규</a> 
+                    <a href="https://github.com/krhaon" target="_blank">주진표</a> 
+                    <a href="https://github.com/yubinheo" target="_blank">허유빈</a>
+                </span><br>
+                </div>
+                
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

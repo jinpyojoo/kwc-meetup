@@ -11,3 +11,13 @@ Back-end by [@YubinHeo](https://github.com/yubinheo)
 Front-end by [@JinpyoJoo](https://github.com/jinpyojoo)
 
 이도윤, 이동규 기획
+
+> 목록
+ * body-parser
+ * date-utils
+ * ejs
+ * express
+ * express-session
+ * moment
+ * mysql
+ * pbkdf2-password

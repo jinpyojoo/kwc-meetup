@@ -10,7 +10,7 @@ Back-end by [@YubinHeo](https://github.com/yubinheo)
 
 Front-end by [@JinpyoJoo](https://github.com/jinpyojoo)
 
-이도윤, 이동규 기획
+기획 : [@LeeDonggyu-07](https://github.com/LeeDonggyu-07), [@sweet1cloud](https://github.com/sweet1cloud)
 
 > 목록
  * body-parser
